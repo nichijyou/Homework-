@@ -1,3 +1,2 @@
-# helloworld
-a normal repository
-何を書くのかな
+# Homework
+大学授業の課題に出すコード。
