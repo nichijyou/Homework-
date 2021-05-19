@@ -1,1 +1,29 @@
-kivyライブラリーによるGUIの作成でできたアンケートアプリです。
+Python期末課題説明
+
+(a)	目的・おおまかな流れ
+　目的としては、質問調査を行うことである。性別、学年、部活の三つの質問をし、協力者にアプリで回答を入力してもらい、その回答をdbファイルとして保存することができる。
+
+(b)	必須項目 
+  1. pyファイルには主な二つのクラスを作成した。調査問題フォームSurveyScreenクラスと書いた結果を見るResultScreenである。各クラスに対応するkvのGUIで入力されるデータを処理する関数がある。kvファイルには第5回授業のkivyの制御文を使うことが多い。また、kivyのオフィシャルドキュメンタリーからGridLayoutと他のWidgetのことを使った。
+
+  2.関数作成としては、insert_dataの入力したデータを記録する関数とsubmit_dataの記録したデータをdbファイルにエキスポートする関数がある。また、sqliteのドキュメンタリーに従って、create_participantの協力者別データ保存とcreate_tableモジュールのcreate_table関数というテーブル作成関数がある。
+
+  3.create_table　というモジュールを作成した。作用は調査結果を記録するdbファイルを作成することです。
+
+(c)応用項目
+　　
+できた点：
+	Kvファイルのオブジェクトとpyファイルのと連結ができたこと。
+	Sqliteモジュールの一部の使い方を自学したこと。
+	やや実用性のあること。
+
+　　できなかった点：
+男女の入力のbuttonのwidgetでボタン押すより入力するデータを変数化にできなくて、結局、機能を放棄したこと。
+	GUIに華美しさが欠けること。
+
+
+参考資料：
+https://docs.python.org/2/library/sqlite3.html(sqliteモジュールの利用)
+https://kivy.org/doc/stable/guide/basic.html (kivyのドキュメンタリー)
+Dusty Philips(2014)《Creating apps in Kivy: Mobile with Python》O’Reilly
+(Kivyの使い)
